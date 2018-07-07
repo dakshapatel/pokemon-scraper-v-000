@@ -31,4 +31,9 @@ attr_accessor :id, :name, :type, :db
 
     end
 
+    def BONUS
+
+
+    end
+
 end
