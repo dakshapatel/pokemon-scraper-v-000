@@ -31,9 +31,8 @@ attr_accessor :id, :name, :type, :db
 
     end
 
-    def BONUS
-
-
+    def alter_hp(new_hp, db)
+      db.execute("UPDATE pokemon SET hp = #{new_hp} WHERE id = #{self.id}")
     end
 
 end
